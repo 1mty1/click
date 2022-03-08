@@ -5,10 +5,10 @@ body {
 
 
 .btn2 {
-  border: 2px solid red ;
+border: 2px solid black;
 margin: 200px 200px 200px 200px;
   padding: 2px 2px;
-  cursor: pointer;
+  border-radius: 4px;
 }
 
 .credit {
@@ -19,24 +19,21 @@ color: white;
 }
 
 .btn {
-  width: 300px;
+ width: 300px;
   height: 100px;
-  border: none;
-  color: white;
-  background-color: red;
-    border-radius: 4px;
-  font-size: 20px;
-  box-shadow: inset 0 0 0 0 yellow;
+  background-color: black;
+  color:white;
+  border: 12px double red;
+    border-radius: 12px;
+ font-size: 20px;
+  box-shadow: inset 0 0 0 0 black;
   transition: ease-out 2s;
-outline: none;
 }
+
 
 .btn:hover {
-  box-shadow: inset 300px 0 0 0 green;
-  cursor: pointer;
-  color: black;
-}
-
+  border: 36px double red;
+  
 
 .Sub {
   color: white;
