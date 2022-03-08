@@ -1,0 +1,40 @@
+<head>
+  <link rel="stylesheet" href="style.css">
+  <title>Click the button</title>
+</head>
+<body>
+  <center>
+  <button class="btn2" onclick="clicked()">Press Me!</button>
+<script>
+function clicked() {
+    var xhr = new XMLHttpRequest();
+    xhr.open("GET", "https://api.countapi.xyz/hit/:HOST:/:PATHNAME:");
+    xhr.responseType = "json";
+    xhr.onload = function() {
+        alert(`This button has been clicked ${this.response.value} times!`);
+    }
+    xhr.send();
+}
+</script>
+    
+    
+    
+    <p class="credit">
+     
+      
+      
+      
+      Made by eps#2022
+    </p> 
+    
+    
+    
+    
+    
+    <div class="con">
+   <button class="btn">
+     Hover me!
+   </button>
+  </div> 
+</center>
+</body>
